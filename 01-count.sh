@@ -1,7 +1,9 @@
 #!/bin/bash
 
+echo "Script name: $0"
+echo" First argument: $1"
+echo "Second argument: $2"
+echo "Total arguments: $#"
 
-NUMBER_OF_ARGUMENTS=$#
-ARGUMENTS=$@
-echo "Total arguments $NUMBER_OF_ARGUMENTS"
-echo "Arguments are $ARGUMENTS" 
+
+
