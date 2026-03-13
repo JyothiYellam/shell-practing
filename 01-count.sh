@@ -1,9 +1,12 @@
 #!/bin/bash
 
-echo "Script name: $0"
-echo "First argument: $1"
-echo "Second argument: $2"
-echo "Total arguments: $#"
+if [ $# -eq 0 ]
+then
+    echo "No arguments provided"
+    exit 1
+fi
+
+
 
 
 
