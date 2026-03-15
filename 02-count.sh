@@ -1,7 +1,6 @@
 #!/bin/bash
-
 for i in {1..20}
-  if [ $i%2 -eq 0 ]; then
+ if [ $i %2 -eq 0 ]; then
    echo "$i is EVEN"
   else 
    echo "$i is ODD"
