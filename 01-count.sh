@@ -1,9 +1,12 @@
 #!/bin/bash
 
-for i in {1..10}
-  do 
-    echo $i 
-  done
-echo $SHELL
+for i in {1..20}
+  if [ $i/2 -eq 0 ]; then
+   echo "$i is EVEN"
+  else 
+   echo "$i is ODD"
+ fi 
+ 
+
 
 
